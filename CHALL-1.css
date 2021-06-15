@@ -1,0 +1,68 @@
+body{
+    background-color:hsl(233, 47%, 7%);
+    
+}
+h1{
+    color:white;
+    font-family:"Lexand Deca", Inter;
+}
+span{
+    
+    color:hsl(277, 64%, 61%);
+}
+p{
+    
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size:15px;
+}
+
+.grid-container{
+   padding-top:172px;
+   padding-left:162px;
+  padding-bottom:650px;
+  padding-right:199px;
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+    margin:auto;
+
+}
+.grid-child-left{
+  padding-top:80px;
+padding-left:60px;
+    padding-right:119px;
+  background-color:hsl(244, 38%, 16%);
+
+
+}
+
+.grid-child-right{
+ 
+
+
+}
+span1{
+
+color:hsl(0, 0%, 100%);
+
+}
+span2{
+
+color:hsla(0, 0%, 100%, 0.6);
+}
+.leftbox{
+    float:left;
+    height:100px;
+    padding-top:50px;
+}
+.middlebox{
+
+float:left;
+height=100px;
+    padding-top:50px;
+    padding-left:50px;
+}
+.rightbox{
+    
+    float:right;
+    padding-top:50px;
+}
